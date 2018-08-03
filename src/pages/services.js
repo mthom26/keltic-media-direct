@@ -1,10 +1,12 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-const Services = () => {
+import Services from '../components/services/Services';
+
+const ServicesComponent = () => {
   return (
-    <div style={{ marginTop: '56px'}}>
-      <h1>Services</h1>
+    <div>
+      <ServicesComponent />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import '../custom.scss';
 
 const Index = ({ data }) => {
   const { serviceCD, serviceRadio, servicePublish, productLists } = data;
-  console.log(productLists);
+  //console.log(productLists);
   return (
     <div style={{ marginTop: '56px' }}>
       <Main
