@@ -5,6 +5,7 @@ import {
   Col,
   Button
 } from 'reactstrap';
+import Helmet from 'react-helmet';
 
 import ImageBlock from '../components/product/ImageBlock';
 
@@ -22,6 +23,9 @@ const Product = ({ data }) => {
 
   return (
     <div style={{ marginTop: '56px'}}>
+    <Helmet>
+      <title>Keltic Media Direct - {artistName} {albumName}</title>
+    </Helmet>
     <Container className="py-5">
       <Row>
         <Col md={5}>

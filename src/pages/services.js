@@ -1,11 +1,15 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
-import Services from '../components/services/Services';
+import ServicesComponent from '../components/services/Services';
 
-const ServicesComponent = () => {
+const Services = () => {
   return (
     <div>
+      <Helmet>
+        <title>Keltic Media Direct - Services</title>
+      </Helmet>
       <ServicesComponent />
     </div>
   );

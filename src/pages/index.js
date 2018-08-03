@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
 import Main from '../components/home/Main';
 
@@ -10,6 +11,9 @@ const Index = ({ data }) => {
   //console.log(productLists);
   return (
     <div style={{ marginTop: '56px' }}>
+      <Helmet>
+        <title>Keltic Media Direct - Home</title>
+      </Helmet>
       <Main
         serviceCD={serviceCD}
         servicePublish={servicePublish}

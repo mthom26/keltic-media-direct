@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
 import ShopList from '../components/shop/ShopList';
 
@@ -7,6 +8,9 @@ const Shop = ({ data }) => {
   console.log(data);
   return (
     <div style={{ marginTop: '100px'}}>
+      <Helmet>
+        <title>Keltic Media Direct - Shop</title>
+      </Helmet>
       <ShopList data={data} />
     </div>
   );
