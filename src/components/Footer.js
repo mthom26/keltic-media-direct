@@ -7,6 +7,7 @@ import {
 } from 'reactstrap';
 
 import contentfulIcon from '../images/contentfulIcon.svg';
+import facebookIcon from '../images/facebookIcon.svg';
 
 const Footer = () => {
   return (
@@ -21,12 +22,12 @@ const Footer = () => {
         <Col md={4}>
           <p className="mb-2 font-weight-bold">Contact</p>
           <hr className="bg-primary w-25 my-2 d-none d-md-block"/>
-          <p className="m-0">email@email.com</p>
-          <p className="m-0">phone number</p>
+          <p className="m-0">kelticmediadirect@gmail.com</p>
+          <p className="m-0">075 51080011</p>
           <hr className="bg-primary d-md-none w-50"/>
         </Col>
         <Col md={4}>
-          <p>Social Icons</p>
+          <a href="#"><img src={facebookIcon} height="38px" /></a>
         </Col>
       </Row>
     </Container>

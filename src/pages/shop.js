@@ -9,7 +9,8 @@ const Shop = ({ data }) => {
   return (
     <div style={{ marginTop: '100px'}}>
       <Helmet>
-        <title>Keltic Media Direct - Shop</title>
+        <title>Shop - Keltic Media Direct</title>
+        <meta name="description" content="Irish Country and Traditional music." />
       </Helmet>
       <ShopList data={data} />
     </div>

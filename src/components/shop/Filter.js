@@ -36,7 +36,7 @@ class Filter extends React.Component {
 
     return (
       <Container fluid>
-        <Row className="border border-darkTransparent mb-4">
+        <Row className="border border-darkTransparent mb-4 rounded bg-white">
           <Col className="text-center" md={12} sm={6} xs={6}>
             <p className="mt-3">Set Category</p>
             <ButtonDropdown isOpen={isOpenCategory} toggle={this.toggleCat}>

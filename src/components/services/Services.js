@@ -15,7 +15,12 @@ const ServicesComponent = () => {
             <Col lg={{ offset: 3, size: 6 }}>
               <h1>Manufacturing</h1>
               <hr className="bg-primary" />
-              <p></p>
+              <p>CD/DVD duplication and replication services can be obtained from <a href="http://mainstreetduplication.com/" target="_blank">Main Street Duplication</a>.</p>
+              <ul className={`${styles.list}`}>
+                <li>CD Duplication/Replication</li>
+                <li>DVD Duplication/Replication</li>
+                <li>Print services covering all your needs for a professional presentation of you, your products and events.</li>
+              </ul>
             </Col>
             <Col lg={{ offset: 3, size: 6 }}>
               <h1>Publishing</h1>

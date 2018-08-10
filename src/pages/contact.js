@@ -17,7 +17,8 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Keltic Media Direct - Contact</title>
+        <title>Contact - Keltic Media Direct</title>
+        <meta name="description" content="Irish Country and Traditional music." />
       </Helmet>
     
       <Container style={{ marginTop: '56px'}} className="mb-5">

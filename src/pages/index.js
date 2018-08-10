@@ -13,6 +13,7 @@ const Index = ({ data }) => {
     <div style={{ marginTop: '56px' }}>
       <Helmet>
         <title>Keltic Media Direct - Home</title>
+        <meta name="description" content="Irish Country and Traditional music." />
       </Helmet>
       <Main
         serviceCD={serviceCD}

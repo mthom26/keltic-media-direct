@@ -24,7 +24,7 @@ const Product = ({ data }) => {
   return (
     <div style={{ marginTop: '56px'}}>
     <Helmet>
-      <title>Keltic Media Direct - {artistName} {albumName}</title>
+      <title>{artistName} {albumName} - Keltic Media Direct</title>
     </Helmet>
     <Container className="py-5">
       <Row>

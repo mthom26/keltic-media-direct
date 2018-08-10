@@ -1,12 +1,18 @@
 require('dotenv').config();
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.kelticmediadirect.com`
+  },
   plugins: [
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-sitemap'
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

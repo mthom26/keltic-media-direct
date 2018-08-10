@@ -8,7 +8,8 @@ const Services = () => {
   return (
     <div>
       <Helmet>
-        <title>Keltic Media Direct - Services</title>
+        <title>Services - Keltic Media Direct</title>
+        <meta name="description" content="Irish Country and Traditional music." />
       </Helmet>
       <ServicesComponent />
     </div>
